@@ -4,7 +4,6 @@ import { BlogType } from "@/types/entities/BlogType";
 import blogService from "@/service/blog.service";
 import ControlSearch from "@/Components/Commons/ControlSearch";
 
-
 export default function TransformYourBusiness() {
   const [blogList, setBlogList] = useState<BlogType[]>([]);
 
@@ -120,8 +119,8 @@ export default function TransformYourBusiness() {
             <p>
               En el 2022, la cadena de farmacias Inkafarma lanzó una campaña con
               la participación de la Dra. Ana María Polo, famosa por su programa
-              "Caso Cerrado". La campaña, llamada "El caso de los precios más
-              bajos", logró un gran impacto:
+              &quot;Caso Cerrado&quot;. La campaña, llamada &quot;El caso de los
+              precios más bajos&quot;, logró un gran impacto:
             </p>
           </div>
           <img
@@ -156,9 +155,9 @@ export default function TransformYourBusiness() {
           <div className={styles.text}>
             <h4>2. McDonald’s</h4>
             <p>
-              En 2022, la campaña "Yo amo ayudar" de McDonald’s demuestra cómo
-              el marketing digital puede potenciar una marca y apoyar una causa
-              benéfica.
+              En 2022, la campaña &quot;Yo amo ayudar&quot; de McDonald’s
+              demuestra cómo el marketing digital puede potenciar una marca y
+              apoyar una causa benéfica.
             </p>
           </div>
         </div>

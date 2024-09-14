@@ -1,13 +1,13 @@
-
 import React from "react";
 import styles from "./styles.module.css";
 import Paragraph from "@/Components/Commons/Paragraph";
+import Image from "next/image";
 
 export interface CardAboutUsType {
   icon: string | React.ReactNode;
   title: string;
   subTitle: string;
-  rout?: string ;
+  rout?: string;
 }
 
 interface CardsAboutUsProps {
@@ -19,7 +19,12 @@ export default function CardAboutUs({ cards }: CardsAboutUsProps) {
       {cards.map((card, index) => (
         <div className={styles.contentTarget} key={index}>
           <div className={styles.contentIconAboutUs}>
-            <img src={card.icon} alt="" />
+            <Image
+              src={String(card.icon)}
+              alt=""
+              width={40} 
+              height={40}
+            />
           </div>
           <div className={styles.textTargetAboutUs}>
             <h1>{card.title}</h1>

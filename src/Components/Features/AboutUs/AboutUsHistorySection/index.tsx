@@ -4,6 +4,7 @@ import React from "react";
 import styles from "./style.module.css";
 import { CardAboutUsType } from "../../HomePage/SectionAboutUs/CardAboutUs";
 import Link from "next/link";
+import Image from "next/image";
 
 const cardsList: CardAboutUsType[] = [
   {
@@ -36,11 +37,16 @@ export default function AboutUsHistorySection() {
         </p>
         <div>
           {cardsList.map((card, index) => (
-            <div>
+            <div key={index}>
               <Link className={styles.anclaCards} href="">
-                <div className={styles.contentTarget} key={index}>
+                <div className={styles.contentTarget}>
                   <div className={styles.contentIconAboutUs}>
-                    <img src={card.icon} alt="" />
+                    <Image
+                      src={String(card.icon)}
+                      alt=""
+                      width={40} 
+                      height={40}
+                    />
                   </div>
                   <div className={styles.textTargetAboutUs}>
                     <p>{card.title}</p>

@@ -15,7 +15,7 @@ const cardsList: CardProfesionalPeopleType[] = [
     facebook: "",
     linkedin: "",
     instagram: "",
-    twiter: "",
+    twitter: "",
   },
   {
     name: "Bessie Cooper",
@@ -25,7 +25,7 @@ const cardsList: CardProfesionalPeopleType[] = [
     facebook: "",
     linkedin: "",
     instagram: "",
-    twiter: "",
+    twitter: "",
   },
   {
     name: "Wade Warren",
@@ -35,7 +35,7 @@ const cardsList: CardProfesionalPeopleType[] = [
     facebook: "",
     linkedin: "",
     instagram: "",
-    twiter: "",
+    twitter: "",
   },
   {
     name: "Savannah Nguyen",
@@ -45,7 +45,7 @@ const cardsList: CardProfesionalPeopleType[] = [
     facebook: "",
     linkedin: "",
     instagram: "",
-    twiter: "",
+    twitter: "",
   },
 ];
 

@@ -29,18 +29,18 @@ export default function IdCustomer({ params }: IDProps) {
   }, [idBlog]);
 
   if (!blog) {
-    return <p>Loading...</p>; // Muestra un estado de carga mientras se obtienen los datos
+    return <p>Loading...</p>; 
   }
 
   return (
     <div>
-      {/* // este es un componente aparte no debe de ser tocado */}
+      
       <PresentationSection
         title="Detalles del Blog"
         rout="/home"
         nameRout="Home"
       />
-      <div>{blog.componente}</div> {/* Renderiza el componente del blog */}
+      <div>{blog.componente}</div> 
     </div>
   );
 }

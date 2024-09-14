@@ -33,7 +33,7 @@ export default function StatisticsSection() {
   return <section className={styles.contentTotalSectionStatisticsSection}>
     <div className={styles.contentCardsStatisticsSection}>
         {listStatistics.map( (index, item) => (
-            <div className={styles.cardStatisticss}>
+            <div className={styles.cardStatisticss} key={item}>
                 <div className={styles.iconStatistics}>
                     <img src={index.icon} alt="" />
                 </div>
