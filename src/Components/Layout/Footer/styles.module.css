@@ -114,8 +114,9 @@
   position: relative;
 }
 .listContentFooterCopyRight {
-  display: flex;
   list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .listContentFooterCopyRight li a {
   margin-left: 20px;
@@ -156,7 +157,7 @@
 }
 @media (max-width: 441px) {
 .listContentFooterCopyRight {
-  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
 }
 }
 
