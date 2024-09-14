@@ -53,7 +53,7 @@ export default function AboutSection() {
           />
           <div className={styles.contentTargetOfExperiencies}>
             <div className={styles.textTargetOfExperiences}>
-              <IconCopa />S<h2>10+</h2>
+              <IconCopa /><h2>10+</h2>
             </div>
             <h3>Years Of Experiences</h3>
           </div>
