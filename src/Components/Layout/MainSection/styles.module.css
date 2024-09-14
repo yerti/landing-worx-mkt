@@ -1,0 +1,11 @@
+.mainSectionContainer {
+  flex: 1;
+  height: 100vh;
+  overflow: auto;
+}
+
+@media (max-width: 769px) {
+  .mainSectionContainer {
+    padding-top: 0;
+  }
+}

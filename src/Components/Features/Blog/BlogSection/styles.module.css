@@ -1,0 +1,146 @@
+.contentTotalSectionBlog {
+  width: 100%;
+  display: flex;
+  padding: 120px 8%;
+}
+.contentColumnOneBlog {
+  width: 70%;
+  margin-right: 3%;
+}
+.contentColumnTwoBlog {
+  width: 30%;
+}
+.imageBlog {
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.contentColumnOneBlog a {
+  text-decoration: none;
+}
+.contentTargetBlog {
+  border-radius: 20px;
+  background-color: #fcfaf3;
+  margin-bottom: 24px;
+}
+.contentTargetBlog h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+.textBlog {
+  padding: 40px 30px 30px;
+}
+.paragraphBlog {
+  margin-bottom: 20px;
+}
+.contentAnclaRoutBlog {
+  display: inline-flex;
+  line-height: 1;
+  font-weight: 600;
+  border-radius: 5px;
+  letter-spacing: 0.8px;
+  padding: 17px 27px;
+  background-color: #f44730;
+  color: white;
+  margin-top: 1.5rem;
+}
+.contentTwoTextSectionBlog {
+  display: flex;
+}
+.contentTwoTextSectionBlog p {
+  margin-right: 24px;
+}
+.contentTwoTextSectionBlog img {
+  margin-right: 8px;
+}
+
+.contentTargetColumnTwoSearch {
+  border-radius: 5px;
+  border: 2px solid #eff3f4;
+  padding: 20px;
+  padding-top: 54px;
+  margin-bottom: 24px;
+}
+.contentTargetColumnTwo,
+.contentTargetColumnThree {
+  border-radius: 5px;
+  border: 2px solid #eff3f4;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.contentTargetColumnTwo h3,
+.contentTargetColumnThree h3 {
+  font-weight: 600;
+  color: #171717;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -0.96px;
+  margin-bottom: 12px;
+}
+.contentTargetColumnTwo a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  background-color: #fcfaf3;
+  text-decoration: none;
+  color: #67687a;
+}
+.targetSmall {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+.imageTargetSmall {
+  width: 80px;
+  border-radius: 5px;
+  margin-right: 12px;
+  margin-top: 7px;
+}
+.textTragetSmall span {
+  margin-left: 12px;
+}
+.textTragetSmall a {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.96px;
+  font-weight: 600;
+  color: #171717;
+  text-decoration: none;
+}
+.textTragetSmall a:hover {
+  color: #f44730;
+}
+
+@media (max-width: 982px) {
+  .contentTotalSectionBlog {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 4%;
+  }
+  .contentColumnOneBlog {
+    width: 80%;
+    margin-right: 0;
+  }
+  .contentColumnTwoBlog {
+    width: 80%;
+  }
+  .contentTargetBlog h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 627px) {
+  .contentColumnOneBlog {
+    width: 100%;
+  }
+  .contentColumnTwoBlog {
+    width: 100%;
+  }
+}

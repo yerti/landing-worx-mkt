@@ -1,0 +1,86 @@
+.contentHomeSection {
+  padding: 200px 8% 133px;
+  background-image: url("/images/fondo_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contentInformationHomeSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.targetInformationHome {
+  padding: 0 0.5rem;
+  width: 50%;
+}
+.titleHome h1 {
+  font-size: 92px;
+  color: #171717;
+  line-height: 110%;
+  margin-bottom: 34px;
+  max-width: unset;
+  margin-bottom: 34px;
+}
+.titleHome span {
+  color: #48534f;
+}
+
+.textAndButtonHome {
+  display: flex;
+  align-items: center;
+}
+.textAndButtonHome p {
+  margin-left: 40px;
+  font-size: 18px;
+  line-height: 1.8;
+  width: 50%;
+}
+.imgHome {
+  max-width: 100%;
+}
+
+@media (max-width: 1025px) {
+  .titleHome h1 {
+    font-size: 72px;
+  }
+  .targetInformationHome {
+    width: 80%;
+  }
+  .contentHomeSection {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+}
+@media (max-width: 982px) {
+  .contentInformationHomeSection {
+    flex-direction: column-reverse;
+  }
+  .contentHomeSection {
+    padding-top: 84px;
+    padding-bottom: 60px;
+  }
+  .targetInformationHome {
+    width: 100%;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  .textAndButtonHome {
+    flex-direction: column;
+  }
+  .textAndButtonHome p {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 426px) {
+  .titleHome h1 {
+    font-size: 36px;
+  }
+  .textAndButtonHome {
+    font-size: 16px;
+  }
+}

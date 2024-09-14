@@ -1,0 +1,17 @@
+.subtitleTotal {
+  font-size: 60px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #171717;
+  margin-bottom: 20px;
+}
+.subtitleTotal span {
+  color: #48534f;
+}
+
+@media (max-width: 1025px) {
+  .subtitleTotal {
+    font-size: 31px;
+  }
+}

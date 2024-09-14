@@ -1,0 +1,41 @@
+.contentCardsAboutUs {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.contentTarget {
+  background-color: #fcfaf3;
+  padding: 20px;
+  margin-right: 20px;
+  display: flex;
+  border-radius: 20px;
+}
+.textTargetAboutUs {
+  margin-left: 20px;
+}
+.textTargetAboutUs h1 {
+  font-size: 25px;
+  color: #171717;
+}
+.contentIconAboutUs {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f44730;
+  border-radius: 5px;
+}
+.contentCardsAboutUs img{
+    width: 40px;
+    height: 41px;
+}
+
+@media (max-width: 658px) {
+  .contentCardsAboutUs {
+    flex-direction: column;
+  }
+  .contentTarget {
+    margin-bottom: 24px;
+  }
+}

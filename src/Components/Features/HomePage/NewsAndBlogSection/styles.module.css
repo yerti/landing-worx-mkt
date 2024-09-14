@@ -1,0 +1,76 @@
+.contentTotalNewsAndBlogSection {
+  padding-bottom: 96px;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+.contentTitleNewsAndBlogSectio {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contentListCardsNewsAndBlog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+.contentCardNewsAndBlog {
+  width: 100%;
+  margin: 0 0.5rem;
+  background-color: #fcfaf3;
+  border-radius: 20px;
+  padding: 20px 20px 30px;
+}
+.imgCard {
+  width: 100%;
+  border-radius: 20px;
+}
+.contentImgText {
+  display: flex;
+  align-items: center;
+}
+.contentImgText img {
+  margin-right: 8px;
+}
+.contentImgText p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #67687a;
+  line-height: 2.06;
+}
+.contentTwoDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #b2b2b2;
+}
+.contenDescription {
+  font-size: 20px;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  color: #171717;
+}
+
+
+@media (max-width: 1025px) {
+ .contentTotalNewsAndBlogSection {
+  padding-right: 4%;
+  padding-left: 4%;
+ } 
+}
+
+@media (max-width: 982px) {
+.contentListCardsNewsAndBlog {
+  grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (max-width: 767px) {
+
+  .contentListCardsNewsAndBlog {
+    grid-template-columns: 1fr;
+  }
+}
+

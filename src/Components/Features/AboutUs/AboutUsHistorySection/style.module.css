@@ -1,0 +1,76 @@
+.contentTotalAboutHistorySection {
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-right: 8%;
+}
+.imagesAboutHistory {
+  max-width: 100%;
+  padding-right: 3rem;
+  border-radius: 0px 20px 0px 20px;
+}
+
+.contentTarget {
+  padding: 20px;
+  margin-right: 20px;
+  display: flex;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.textTargetAboutUs {
+  margin-left: 20px;
+}
+.textTargetAboutUs h1 {
+  color: #67687a;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contentIconAboutUs {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f44730;
+  border-radius: 5px;
+}
+.contentCardsAboutUs img {
+  width: 40px;
+  height: 41px;
+}
+.anclaCards {
+  text-decoration: none;
+  font-size: 20px;
+  color: #171717;
+  font-weight: 600;
+}
+.anclaCards:hover {
+  color: #f44730;
+}
+
+@media (max-width: 1025px) {
+  .contentTotalAboutHistorySection {
+    padding-right: 4%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .imagesAboutHistory {
+    width: 50%;
+  }
+  
+}
+@media (max-width: 769px) {
+  .contentTotalAboutHistorySection {
+    flex-direction: column;
+    padding-left: 4%;
+  }
+  .imagesAboutHistory {
+    width: 100%;
+    padding-right: 0;
+  }
+  .contentColumnTwoHistorySectio {
+    margin-top: 35px;
+  }
+}

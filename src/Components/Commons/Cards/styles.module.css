@@ -1,0 +1,50 @@
+.contentCard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 60px;
+}
+.cardStyles {
+  width: 100%;
+  text-align: center;
+}
+.contentCard a {
+  text-decoration: none;
+  color: #000;
+}
+.cardStyles:hover h4 {
+  color: #f44730;
+}
+.cardStyles img {
+  margin-left: 11%;
+  margin-right: 11%;
+}
+.contentTextCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -36px;
+}
+.contentTextCard h4 {
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -0.96px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+@media (max-width: 982px) {
+  .contentCard {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cardStyles {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 426px) {
+  .contentCard {
+    grid-template-columns: 1fr;
+  }
+}
