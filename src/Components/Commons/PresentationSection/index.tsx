@@ -14,7 +14,7 @@ export default function PresentationSection({title, rout, nameRout}: Presentatio
       <div className={styles.titleContentSectionPresentation}>
         <h1>{title}</h1>
         <div className={styles.textSectionPresentation}>
-            <a href={rout}>{nameRout}</a>
+            <Link href={rout}>{nameRout}</Link>
             <img src="/images/chevron-forward-outline.svg" alt="" /> 
             <p>{title}</p>
         </div>

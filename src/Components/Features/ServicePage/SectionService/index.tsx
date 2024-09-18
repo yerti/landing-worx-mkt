@@ -8,6 +8,7 @@ import IconServiceTwo from "@/Components/Icons/IconServiceTwo";
 import IconServiceThree from "@/Components/Icons/IconServiceThree";
 import IconServiceFour from "@/Components/Icons/IconServiceFour";
 import ArrowIcon from "@/Components/Icons/ArrowIcon";
+import Link from "next/link";
 
 const cardsList: CardAboutUsType[] = [
   {
@@ -57,10 +58,10 @@ export default function SectionService() {
                 <p>{card.subTitle}</p>
               </div>
 
-              <a className={styles.anclaSectionService} href={card.rout}>
+              <Link className={styles.anclaSectionService} href={card.rout}>
                 Read More
                 <ArrowIcon color="#f44730" />
-              </a>
+              </Link>
             </div>
           </>
         ))}

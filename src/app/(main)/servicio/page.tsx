@@ -8,7 +8,7 @@ export default function Serviciospage() {
     <>
       <PresentationSection title="Servicio" nameRout="Home" rout="/home" />
       <SectionService />
-      <PricesSection />
+      {/* <PricesSection /> */}
     </>
   );
 }

@@ -59,6 +59,9 @@
   color: #67687a;
   border-top: 1px solid #e6e2e2;
 }
+.listMenu a:hover {
+  color: #f44730;
+}
 
 @media (max-width: 1025px) {
   .contentNavigationBar {

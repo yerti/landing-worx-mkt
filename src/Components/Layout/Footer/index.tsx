@@ -4,6 +4,8 @@ import FacebookIcon from "@/Components/Icons/FacebookIcon";
 import InstagramIcon from "@/Components/Icons/InstagramIcon";
 import LinkedinIcon from "@/Components/Icons/LinkedinIcon";
 import TwiterIcon from "@/Components/Icons/TwiterIcon";
+import LogoBlack from "@/Components/Icons/LogoBlack";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -12,22 +14,22 @@ export default function Footer() {
         <div className={styles.contentColumnFoter}>
           <div>
             <div>
-              <a href="">
-                <img
-                  src="https://vibetech-html.vercel.app/assets/images/logo-3.svg"
-                  alt="logo footer"
-                />
+              <a href="/home">
+                <LogoBlack />
               </a>
-              <p className={styles.contentTextParrafo}>
-                Conditions Terms of Use Our Services New Guests List The Team
-                List
-              </p>
+              <div className={styles.contentTextParrafo}>
+                <p>
+                  Condiciones Términos de Uso Nuestros Servicios Lista de Nuevos
+                  Huéspedes
+                </p>
+                <p>Lista del Equipo</p>
+              </div>
             </div>
             <div>
-              <h3>Subscribe:</h3>
+              <h3>Suscribir:</h3>
               <div className={styles.contetnInputControl}>
                 <label htmlFor="gamil">
-                  E-mail
+                  Correo electrónico
                   <input type="text" id="gmail" />
                 </label>
                 <button>
@@ -37,32 +39,30 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <h3>Our Services</h3>
+            <h3>Nuestros servicios</h3>
             <div>
               <ul className={styles.contentLisColumTwo}>
                 <li>
-                  <a href="#">Health Service</a>
+                  <Link href="/servicio/adquisicion">
+                    Adquisición de Clientes
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">Cancer Service</a>
+                  <Link href="/servicio/optimizacion">
+                    Optimización del Customer Journey
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">Heart Service</a>
+                  <Link href="/servicio/retencion">Retención de Clientes</Link>
                 </li>
                 <li>
-                  <a href="#">Kidney Service</a>
-                </li>
-                <li>
-                  <a href="#">Diabetics</a>
-                </li>
-                <li>
-                  <a href="#">Others Service</a>
+                  <Link href="/servicio/marketing">Marketing Digital</Link>
                 </li>
               </ul>
             </div>
           </div>
           <div>
-            <h3>Contact</h3>
+            <h3>Contacto</h3>
             <ul className={styles.contentLisColumTwo}>
               <li>
                 <img src="/images/location-sharp.svg" alt="" />
@@ -79,7 +79,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className={styles.contentFourColumn}>
-            <h3>Follow Us</h3>
+            <h3>Síganos</h3>
             <p className={styles.contentTextParrafo}>
               Lorem Ipsum is simply is duma omy is text Lorem Ipsum is simply is
               out no our o dummy text.
@@ -119,7 +119,7 @@ export default function Footer() {
           <p>© Copyright 2023, All Rights Reserved by Mthemeus</p>
         </div>
         <div>
-          <ul className={styles.listContentFooterCopyRight }>
+          <ul className={styles.listContentFooterCopyRight}>
             <li>
               <a href="">Trams & Condition</a>
             </li>
