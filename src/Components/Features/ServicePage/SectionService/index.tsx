@@ -58,10 +58,12 @@ export default function SectionService() {
                 <p>{card.subTitle}</p>
               </div>
 
-              <Link className={styles.anclaSectionService} href={card.rout}>
-                Read More
-                <ArrowIcon color="#f44730" />
-              </Link>
+              {card.rout && (
+                <Link className={styles.anclaSectionService} href={card.rout}>
+                  Read More
+                  <ArrowIcon color="#f44730" />
+                </Link>
+              )}
             </div>
           </>
         ))}
