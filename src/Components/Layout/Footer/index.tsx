@@ -64,14 +64,14 @@ export default function Footer() {
           <div>
             <h3>Contacto</h3>
             <ul className={styles.contentLisColumTwo}>
-              <li>
+              {/* <li>
                 <img src="/images/location-sharp.svg" alt="" />
                 <a href="#">2715 Ash Dr. San Jose</a>
               </li>
               <li>
                 <img src="/images/call.svg" alt="" />
                 <a href="">(704) 555-0127</a>
-              </li>
+              </li> */}
               <li>
                 <img src="/images/mail.svg" alt="" />
                 <a href="">infoname@mail.com</a>

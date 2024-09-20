@@ -35,7 +35,7 @@ export default function HomeSections() {
         <div>
           <img
             className={styles.imgHome}
-            src="/images/hero-img-2.png"
+            src="/images/imagen_perfil_empresa.svg"
             alt=""
           />
         </div>

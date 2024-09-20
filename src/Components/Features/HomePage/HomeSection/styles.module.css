@@ -58,7 +58,7 @@
     flex-direction: column-reverse;
   }
   .contentHomeSection {
-    padding-top: 84px;
+    padding-top: 122px;
     padding-bottom: 60px;
   }
   .targetInformationHome {
@@ -82,5 +82,11 @@
   }
   .textAndButtonHome {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 431px) {
+  .titleHome h1 {
+    font-size: 36px;
   }
 }

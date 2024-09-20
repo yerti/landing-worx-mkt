@@ -6,6 +6,7 @@ import Button from "@/Components/Commons/Button";
 import Link from "next/link";
 import LogoBlack from "@/Components/Icons/LogoBlack";
 
+
 interface NavigationBarProps {
   menu: MenuItem[];
 }

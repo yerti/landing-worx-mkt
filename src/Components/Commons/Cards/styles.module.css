@@ -49,3 +49,8 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 431px)  {
+  .cardStyles img{
+    margin: 0 3%;
+  }
+}

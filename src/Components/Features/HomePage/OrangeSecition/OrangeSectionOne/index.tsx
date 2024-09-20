@@ -1,18 +1,19 @@
 import React from "react";
 import styles from "./styles.module.css";
+import LogoWhite from "@/Components/Icons/LogoWhite";
 
 export default function OrangeSectionOne() {
   const listImage = [
-    { img: "/images/logoWhite.svg" },
-    { img: "/images/logoWhite.svg" },
-    { img: "/images/logoWhite.svg" },
-    { img: "/images/logoWhite.svg" },
+    { img: <LogoWhite/>},
+    { img:  <LogoWhite/>},
+    { img: <LogoWhite/>},
+    { img: <LogoWhite/> },
   ];
   return (
     <div className={styles.contentImagesList}>
       {listImage.map((image, index) => (
         <div key={index}>
-          <img src={image.img} alt="" />
+          {image.img}
         </div>
       ))}
     </div>
