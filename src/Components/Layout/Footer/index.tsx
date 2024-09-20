@@ -87,22 +87,22 @@ export default function Footer() {
             <ul className={styles.listIconAcount}>
               <li>
                 <a href="#">
-                  <FacebookIcon color="#f44730" />
+                  <FacebookIcon color="#48534F" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <InstagramIcon color="#f44730" />
+                  <InstagramIcon color="#48534F" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <LinkedinIcon color="#f44730" />
+                  <LinkedinIcon color="#48534F" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <TwiterIcon color="#f44730" />
+                  <TwiterIcon color="#48534F" />
                 </a>
               </li>
             </ul>

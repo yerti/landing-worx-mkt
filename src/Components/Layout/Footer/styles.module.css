@@ -40,7 +40,7 @@
   display: flex;
 }
 .contetnInputControl button {
-  background-color: #f44730;
+  background-color: #48534F;
   padding: 18px;
   height: 56px;
   border: none;
@@ -75,7 +75,7 @@
   line-height: 2.06;
 }
 .contentLisColumTwo li a:hover {
-  color: #f44730;
+  color: #48534F;
 }
 .contentLisColumTwo li {
   margin-bottom: 10px;

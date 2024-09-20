@@ -1,19 +1,11 @@
 import React from "react";
 import styles from "./styles.module.css";
+import { ProfesionalCards } from "@/types/entities/ProfesionalCards.entien";
 
-export interface CardProfesionalPeopleType {
-  img: string;
-  name: string;
-  post: string;
-  facebook: string;
-  twitter: string;
-  linkedin: string;
-  instagram: string;
-  rout: string;
-}
+
 
 interface CardProfesionalPeopleProps {
-  cards: CardProfesionalPeopleType[];
+  cards: ProfesionalCards[];
 }
 
 export default function CardProfesionalPeople({
@@ -23,7 +15,7 @@ export default function CardProfesionalPeople({
     <div className={styles.contentTotalCardsPeople}>
       {cards.map((card, index) => (
         <div className={styles.targetProfesional} key={index}>
-          <a className={styles.routeProfesional} href={card.rout}>
+          <a className={styles.routeProfesional} href={`/profesional/${card.idProfesional}`}>
             <div className={styles.contentListIcon}>
               <img
                 className={styles.imgPeopleProfesional}

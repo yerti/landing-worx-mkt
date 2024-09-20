@@ -33,7 +33,7 @@
   padding: 20px;
   justify-content: center;
   align-items: center;
-  background-color: #f44730;
+  background-color: #48534F;
   border-radius: 5px;
 }
 .contentCardsAboutUs img {
@@ -47,7 +47,7 @@
   font-weight: 600;
 }
 .anclaCards:hover {
-  color: #f44730;
+  color: #48534F;
 }
 
 @media (max-width: 1025px) {

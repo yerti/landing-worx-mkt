@@ -41,21 +41,21 @@
   justify-content: center;
   text-decoration: none;
   color: white;
+  line-height: 1.2;
 }
 .buttonCommunityDiscord {
   margin-right: 20px;
 }
 
 @media (max-width: 769px) {
-.contentCommunity {
-  flex-direction: column;
-  align-items: center;
-}
-.contentCommunity h1 {
-  font-size: 30px;
-
-}
-.contentButtonCommunity {
-  margin-top: 35px;
-}
+  .contentCommunity {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contentCommunity h1 {
+    font-size: 30px;
+  }
+  .contentButtonCommunity {
+    margin-top: 35px;
+  }
 }

@@ -19,7 +19,7 @@
 .iconStatistics {
   position: absolute;
   top: -40px;
-  background-color: #f44730;
+  background-color: #48534F;
   width: 80px;
   height: 80px;
   display: flex;
@@ -29,7 +29,7 @@
 }
 .contentTextStatistics h2 {
   font-family: "Kumbh Sans", sans-serif;
-  -webkit-text-stroke: 1.5px #f44730;
+  -webkit-text-stroke: 1.5px #48534F;
   font-size: 70px;
   color: transparent;
 }

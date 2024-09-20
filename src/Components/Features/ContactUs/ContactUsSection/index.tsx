@@ -16,14 +16,14 @@ export default function contentTotalContactUsSection() {
         </div>
         <div className={styles.contentColumnOneDetailService}>
           <div className={styles.contentTextImgDetailService}>
-            <LocationIcon w="24" h="24" color="#F44730" />
+            <LocationIcon w="24" h="24" color="#48534F" />
             <div className={styles.textDetailService}>
               <h3>Location</h3>
               <p>Dhaka 102, utl 1216, road 45 house of street</p>
             </div>
           </div>
           <div className={styles.contentTextImgDetailService}>
-            <CallIcon w="24" h="24" color="#F44730" />
+            <CallIcon w="24" h="24" color="#48534F" />
             <div className={styles.textDetailService}>
               <h3>Call us</h3>
               <div>
@@ -37,7 +37,7 @@ export default function contentTotalContactUsSection() {
             </div>
           </div>
           <div className={styles.contentTextImgDetailService}>
-            <MailIcon w="24" h="24" color="#F44730" />
+            <MailIcon w="24" h="24" color="#48534F" />
             <div className={styles.textDetailService}>
               <h3>Email</h3>
               <div>

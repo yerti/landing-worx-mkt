@@ -24,7 +24,7 @@ export default function HomeSections() {
             </h1>
           </div>
           <div className={styles.textAndButtonHome}>
-            <Button color="#fff" nameTile="Agenda tu cita ¡Aquí!" variant="button_orange" onClick={handleClick} />
+            <Button hoverIconColor="#fff" iconColor="#fff" nameTile="Agenda tu cita ¡Aquí!" variant="button_orange" onClick={handleClick} />
             <p>
               Somos el aliado estratégico en marketing digital que tu empresa
               necesita. Con soluciones innovadoras y personalizadas, estamos

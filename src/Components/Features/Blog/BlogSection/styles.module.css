@@ -42,7 +42,7 @@
   border-radius: 5px;
   letter-spacing: 0.8px;
   padding: 17px 27px;
-  background-color: #f44730;
+  background-color: #48534F;
   color: white;
   margin-top: 1.5rem;
 }
@@ -115,7 +115,7 @@
   text-decoration: none;
 }
 .textTragetSmall a:hover {
-  color: #f44730;
+  color: #48534F;
 }
 
 @media (max-width: 982px) {

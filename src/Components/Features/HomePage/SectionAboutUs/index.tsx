@@ -32,10 +32,9 @@ export default function SectionAboutUs() {
           <SubTitle nameSubTitle="Descubre a los creadores detrás de <span> WORX MKT</span>" />
           <Paragraph name="Es un hecho establecido desde hace mucho tiempo que un lector se distraerá con el contenido legible de una página cuando observe su diseño." />
           <Paragraph name="Descubre cómo podemos tranformar tu negocio."/>
-          <h3></h3>
-          <p></p>
+          
         </div>
-        <CardAboutUs cards={cardsList} />
+        {/* <CardAboutUs cards={cardsList} /> */}
       </div>
     </div>
   );

@@ -1,0 +1,48 @@
+import { ProfesionalCards } from "@/types/entities/ProfesionalCards.entien";
+
+export const ProfesionalCardsList: ProfesionalCards[] = [
+  {
+    idProfesional: 1,
+    name: "Devon Lane ",
+    img: "/images/team-two-1.png",
+    post: "UI UX Designer",
+    description: "One of the most notable trends is the rise of AI and machine learning. These technologies empower computers to learn from data, enabling them to perform tasks that once required human intelligence.",
+    facebook: "",
+    linkedin: "",
+    instagram: "",
+    twitter: "",
+  },
+  {
+    idProfesional: 2,
+    name: "Bessie Cooper",
+    img: "/images/team-two-2.png",
+    post: "UI UX Designer",
+    description: "One of the most notable trends is the rise of AI and machine learning. These technologies empower computers to learn from data, enabling them to perform tasks that once required human intelligence.",
+    facebook: "",
+    linkedin: "",
+    instagram: "",
+    twitter: "",
+  },
+  {
+    idProfesional: 3,
+    name: "Wade Warren",
+    img: "/images/team-two-3.png",
+    post: "UI UX Designer",
+    description: "One of the most notable trends is the rise of AI and machine learning. These technologies empower computers to learn from data, enabling them to perform tasks that once required human intelligence.",
+    facebook: "",
+    linkedin: "",
+    instagram: "",
+    twitter: "",
+  },
+  {
+    idProfesional: 4,
+    name: "Savannah Nguyen",
+    img: "/images/team-two-4.png",
+    post: "UI UX Designer",
+    description: "One of the most notable trends is the rise of AI and machine learning. These technologies empower computers to learn from data, enabling them to perform tasks that once required human intelligence.",
+    facebook: "",
+    linkedin: "",
+    instagram: "",
+    twitter: "",
+  },
+];

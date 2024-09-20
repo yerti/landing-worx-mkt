@@ -1,0 +1,326 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/Layout/MainSection/styles.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_mainSectionContainer__NveTE {
+  flex: 1;
+  height: 100vh;
+  overflow: auto;
+}
+
+@media (max-width: 769px) {
+  .styles_mainSectionContainer__NveTE {
+    padding-top: 0;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/Layout/Footer/styles.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_contentTotalFooter__hSLUf {
+  padding-top: 80px;
+  position: relative;
+}
+.styles_containerFooter__f_Rpi {
+  margin: 0 8%;
+}
+.styles_containerFooter__f_Rpi h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -0.96px;
+  color: #171717;
+}
+.styles_contentColumnFoter__B8oaf {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8%;
+}
+.styles_contentColumTwoFooter__o0hTt {
+  display: flex;
+}
+.styles_contentTextParrafo__6YBih {
+  font-weight: 400;
+  font-size: 16px;
+  color: #67687a;
+  line-height: 2.06;
+  margin: 15px 0 30px;
+}
+.styles_imageFooterBackground__ACHD_ {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.styles_contetnInputControl__pmrwl {
+  display: flex;
+}
+.styles_contetnInputControl__pmrwl button {
+  background-color: #48534F;
+  padding: 18px;
+  height: 56px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 37.5px;
+}
+.styles_contetnInputControl__pmrwl label {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.styles_contetnInputControl__pmrwl input {
+  width: 100%;
+  height: 56px;
+  padding: 12px;
+  background-color: #fcfaf3;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  margin-top: 8px;
+}
+.styles_contetnInputControl__pmrwl input:focus {
+  outline: none;
+}
+
+.styles_contentLisColumTwo__FnEod {
+  list-style: none;
+}
+.styles_contentLisColumTwo__FnEod li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #67687a;
+  line-height: 2.06;
+}
+.styles_contentLisColumTwo__FnEod li a:hover {
+  color: #48534F;
+}
+.styles_contentLisColumTwo__FnEod li {
+  margin-bottom: 10px;
+}
+.styles_contentLisColumTwo__FnEod img {
+  margin-right: 8px;
+}
+
+.styles_listIconAcount__ppuYs {
+  display: flex;
+  list-style: none;
+}
+.styles_listIconAcount__ppuYs li a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(23, 23, 23, 0.05);
+  margin-right: 8px;
+  cursor: pointer;
+}
+.styles_contentFourColumn__gX___ {
+  z-index: 30;
+}
+.styles_contentFooterCopyRight__fMNAf {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 8%;
+  font-weight: 400;
+  font-size: 16px;
+  color: #67687a;
+  line-height: 2.06;
+  background-color: #fcfaf3;
+  z-index: 5;
+  position: relative;
+}
+.styles_listContentFooterCopyRight__1wzMl {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.styles_listContentFooterCopyRight__1wzMl li a {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #67687a;
+  line-height: 2.06;
+  text-decoration: none;
+}
+
+@media (max-width: 1025px) {
+  .styles_contentColumnFoter__B8oaf {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 982px) {
+  .styles_contentFooterCopyRight__fMNAf {
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .styles_containerFooter__f_Rpi {
+    margin: 0 4%;
+  }
+  .styles_listContentFooterCopyRight__1wzMl {
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .styles_contentColumnFoter__B8oaf {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+@media (max-width: 441px) {
+.styles_listContentFooterCopyRight__1wzMl {
+  grid-template-columns: 1fr 1fr;
+}
+}
+
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/Layout/MainLayout/styles.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_layoutContainer__6chUB {
+  
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/Layout/NavigationBar/styles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_contentNavigationBar__hLM7Z {
+  width: 100%;
+  height: 99px;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 23px 8%;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+  z-index: 99;
+}
+.styles_imgLogoNavigationBar__ZQ66K {
+  width: 25%;
+  height: auto;
+  padding-right: 1.5rem;
+}
+.styles_contentListAndButton__OVpws {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.styles_listMenu__2QfwS {
+  display: flex;
+  list-style: none;
+}
+.styles_listMenu__2QfwS li {
+  padding: 0 50px 0 0;
+}
+.styles_listMenu__2QfwS li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.styles_contentResponsiveList__53uYh {
+  display: none;
+}
+
+.styles_contentResposiveList__y_PNT {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100px;
+  padding: 0 24px;
+}
+.styles_listMenuresponsive__UQKa6 {
+  height: 430px;
+  list-style: none;
+  background-color: white;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+}
+
+.styles_listMenuresponsive__UQKa6 a {
+  padding: 1em 5%;
+  display: block;
+  text-decoration: none;
+  color: #67687a;
+  border-top: 1px solid #e6e2e2;
+}
+.styles_listMenu__2QfwS a:hover {
+  color: #48534F;
+}
+
+@media (max-width: 1025px) {
+  .styles_contentNavigationBar__hLM7Z {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+  .styles_listMenu__2QfwS li {
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: 982px) {
+  .styles_contentListAndButton__OVpws {
+    display: none;
+  }
+  .styles_contentResponsiveList__53uYh {
+    display: block;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/Components/Commons/Button/styles.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_button_white__m6wUM {
+  border: 2px solid #48534F;
+  font-weight: 600;
+  background-color: transparent;
+  color: #171717;
+  padding: 17px 27px;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.styles_button_white__m6wUM svg,
+.styles_button_responsive__j8hea svg {
+  margin-left: 12px;
+}
+
+.styles_button_Orange__tmGYf {
+  width: 220px;
+  background-color: #48534F;
+  color: white;
+  padding: 17px 27px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.styles_button_responsive__j8hea {
+  border: 2px solid #48534F;
+  font-weight: 600;
+  background-color: transparent;
+  color: #171717;
+  padding: 17px 27px;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  margin-left: 24px;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+.styles_textButton__EyXHf {
+  display: flex;
+  justify-content: space-between;
+}
+.styles_textButton__EyXHf span {
+  margin-right: 8px;
+}
+

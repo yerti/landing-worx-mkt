@@ -6,9 +6,10 @@ import ArrowIcon from "@/Components/Icons/ArrowIcon";
 interface ButtonProps {
   nameTile: string;
   img?: string;
-  color: string;
   variant: string;
   type?: "button" | "submit" | "reset";
+  iconColor: string;
+  hoverIconColor: string;
   onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
@@ -18,11 +19,14 @@ export default function Button({
   variant,
   type,
   onClick,
-  color,
+  hoverIconColor,
+  iconColor,
+
 }: ButtonProps) {
   const [variantButton, setVariantButton] = useState(styles.button_purple);
   const [variantIcon, setVariantIcon] = useState("");
 
+  const [isHovered, setIsHovered] = useState(false);
   useEffect(() => {
     switch (variant) {
       case "button_white":
@@ -50,9 +54,15 @@ export default function Button({
   });
   return (
     <>
-      <button onClick={onClick} className={variantButton} type={type}>
+      <button
+        onClick={onClick}
+        className={variantButton}
+        type={type}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         {nameTile}
-        <ArrowIcon color={color}/>
+        <ArrowIcon color={isHovered ? hoverIconColor : iconColor} />
       </button>
     </>
   );

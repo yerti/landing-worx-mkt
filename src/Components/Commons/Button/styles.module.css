@@ -1,5 +1,5 @@
 .button_white {
-  border: 2px solid #f44730;
+  border: 2px solid #48534F;
   font-weight: 600;
   background-color: transparent;
   color: #171717;
@@ -10,6 +10,13 @@
   display: flex;
   align-items: center;
 }
+.button_white:hover {
+  background-color: #000;
+  color: white;
+}
+.button_white svg:hover {
+  fill: white;
+}
 .button_white svg,
 .button_responsive svg {
   margin-left: 12px;
@@ -17,7 +24,7 @@
 
 .button_Orange {
   width: 220px;
-  background-color: #f44730;
+  background-color: #48534F;
   color: white;
   border-radius: 5px;
   padding: 17px 27px;
@@ -27,8 +34,12 @@
   display: flex;
   align-items: center;
 }
+.button_Orange:hover {
+  background-color: #000;
+  
+}
 .button_responsive {
-  border: 2px solid #f44730;
+  border: 2px solid #48534F;
   font-weight: 600;
   background-color: transparent;
   color: #171717;

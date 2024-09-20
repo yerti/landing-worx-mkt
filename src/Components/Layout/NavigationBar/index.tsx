@@ -34,7 +34,7 @@ export default function NavigationBar({ menu }: NavigationBarProps) {
             </li>
           ))}
         </ul>
-        <Button color="#000" variant="button_white" nameTile="Get a quote" />
+        <Button hoverIconColor="#fff" iconColor="#000"variant="button_white" nameTile="Get a quote" />
       </div>
       <div
         className={styles.contentResponsiveList}
@@ -50,8 +50,8 @@ export default function NavigationBar({ menu }: NavigationBarProps) {
                 <Link href={item.path}>{item.title}</Link>
               </li>
             ))}
-            <Button
-              color="#000"
+            <Button hoverIconColor="#000"
+            iconColor="#000"
               variant="button_responsive"
               nameTile="Get a quote"
             />
