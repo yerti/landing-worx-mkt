@@ -80,10 +80,7 @@ export default function Footer() {
           </div>
           <div className={styles.contentFourColumn}>
             <h3>Síganos</h3>
-            <p className={styles.contentTextParrafo}>
-              Lorem Ipsum is simply is duma omy is text Lorem Ipsum is simply is
-              out no our o dummy text.
-            </p>
+            
             <ul className={styles.listIconAcount}>
               <li>
                 <a href="#">

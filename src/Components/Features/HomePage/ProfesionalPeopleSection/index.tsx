@@ -26,7 +26,7 @@ export default function ProfesionalPeopleSection() {
   return (
     <div className={styles.contentProfesionalPeopleSection}>
       <div className={styles.titleProfesionalPeopleSection}>
-        <Title nameTitle="Professional People" />
+        <Title nameTitle="EQUIPO" />
         <SubTitle nameSubTitle="Conoce a Nuestros Servicios " />
       </div>
       <CardProfesionalPeople  cards={profesionalList} />

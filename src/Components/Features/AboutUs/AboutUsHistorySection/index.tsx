@@ -8,13 +8,15 @@ import Image from "next/image";
 
 const cardsList: CardAboutUsType[] = [
   {
-    title: "Consultoría Lumina",
-    subTitle: "Lorem Ipsum es simplemente ficticio",
+    title: "Visión",
+    subTitle:
+      "Ser el aliado estratégico líder en marketing digital, reconocido por nuestras soluciones innovadoras y nuestra capacidad para transformar y empoderar a pequeñas y medianas empresas, creando un impacto duradero en su crecimiento y éxito.",
     icon: "/images/consulting.svg",
   },
   {
-    title: "Ingenieros expertos",
-    subTitle: "Lorem Ipsum es simplemente ficticio",
+    title: "Misión",
+    subTitle:
+      "En WorxMKT, nos dedicamos a impulsar el éxito de pequeñas y medianas empresas a través de estrategias de marketing digital personalizadas y creativas. Nuestra misión es ofrecer soluciones innovadoras que no solo aumenten la visibilidad de nuestros clientes, sino que también generen experiencias significativas y memorables, conectando a las marcas con sus audiencias de manera efectiva.",
     icon: "/images/expert.svg",
   },
 ];
@@ -32,9 +34,11 @@ export default function AboutUsHistorySection() {
         <Title nameTitle="QUIÉNES SOMOS" />
         <SubTitle nameSubTitle="Descubre a los creadores detrás de  <span>WORX MKT</span>" />
         <p>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected humour
+          Apasionados por el marketing digital, nos enfocamos en llevar a los
+          PYMEs hacia el éxito con estrategias innovadoras y resultados
+          tangibles.
         </p>
+        <p>Descubre cómo podemos tranformar tu negocio.</p>
         <div>
           {cardsList.map((card, index) => (
             <div key={index}>
@@ -44,7 +48,7 @@ export default function AboutUsHistorySection() {
                     <Image
                       src={String(card.icon)}
                       alt=""
-                      width={40} 
+                      width={40}
                       height={40}
                     />
                   </div>
