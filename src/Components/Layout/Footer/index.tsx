@@ -1,11 +1,11 @@
-import React from "react";
-import styles from "./styles.module.css";
-import FacebookIcon from "@/Components/Icons/FacebookIcon";
-import InstagramIcon from "@/Components/Icons/InstagramIcon";
-import LinkedinIcon from "@/Components/Icons/LinkedinIcon";
-import TwiterIcon from "@/Components/Icons/TwiterIcon";
-import LogoBlack from "@/Components/Icons/LogoBlack";
-import Link from "next/link";
+import React from 'react';
+import styles from './styles.module.css';
+import FacebookIcon from '@/Components/Icons/FacebookIcon';
+import InstagramIcon from '@/Components/Icons/InstagramIcon';
+import LinkedinIcon from '@/Components/Icons/LinkedinIcon';
+import TwiterIcon from '@/Components/Icons/TwiterIcon';
+import LogoBlack from '@/Components/Icons/LogoBlack';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -14,7 +14,7 @@ export default function Footer() {
         <div className={styles.contentColumnFoter}>
           <div>
             <div>
-              <a href="/home">
+              <a href='/home'>
                 <LogoBlack />
               </a>
               <div className={styles.contentTextParrafo}>
@@ -28,12 +28,12 @@ export default function Footer() {
             <div>
               <h3>Suscribir:</h3>
               <div className={styles.contetnInputControl}>
-                <label htmlFor="gamil">
+                <label htmlFor='gamil'>
                   Correo electrónico
-                  <input type="text" id="gmail" />
+                  <input type='text' id='gmail' />
                 </label>
                 <button>
-                  <img src="/images/send-sharp.svg" alt="" />
+                  <img src='/images/send-sharp.svg' alt='' />
                 </button>
               </div>
             </div>
@@ -43,25 +43,25 @@ export default function Footer() {
             <div>
               <ul className={styles.contentLisColumTwo}>
                 <li>
-                  <Link href="/servicio/adquisicion">
+                  <Link href='/servicio/adquisicion'>
                     Adquisición de Clientes
                   </Link>
                 </li>
                 <li>
-                  <Link href="/servicio/optimizacion">
+                  <Link href='/servicio/optimizacion'>
                     Optimización del Customer Journey
                   </Link>
                 </li>
                 <li>
-                  <Link href="/servicio/retencion">Retención de Clientes</Link>
+                  <Link href='/servicio/retencion'>Retención de Clientes</Link>
                 </li>
                 <li>
-                  <Link href="/servicio/marketing">Marketing Digital</Link>
+                  <Link href='/servicio/marketing'>Marketing Digital</Link>
                 </li>
               </ul>
             </div>
           </div>
-          <div>
+          <div className={styles.contentContacto}>
             <h3>Contacto</h3>
             <ul className={styles.contentLisColumTwo}>
               {/* <li>
@@ -73,33 +73,39 @@ export default function Footer() {
                 <a href="">(704) 555-0127</a>
               </li> */}
               <li>
-                <img src="/images/mail.svg" alt="" />
-                <a href="">infoname@mail.com</a>
+                <img src='/images/mail.svg' alt='' />
+                <a href='mailto:contacto.worxmkt@gmail.com'>
+                  contacto.worxmkt@gmail.com
+                </a>
               </li>
             </ul>
           </div>
           <div className={styles.contentFourColumn}>
             <h3>Síganos</h3>
-            
+
             <ul className={styles.listIconAcount}>
               <li>
-                <a href="#">
-                  <FacebookIcon color="#48534F" />
+                <a href='#'>
+                  <FacebookIcon color='#48534F' />
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <InstagramIcon color="#48534F" />
+                <a
+                  href='https://www.instagram.com/worxmkt'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <InstagramIcon color='#48534F' />
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <LinkedinIcon color="#48534F" />
+                <a href='#'>
+                  <LinkedinIcon color='#48534F' />
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <TwiterIcon color="#48534F" />
+                <a href='#'>
+                  <TwiterIcon color='#48534F' />
                 </a>
               </li>
             </ul>
@@ -107,8 +113,8 @@ export default function Footer() {
         </div>
         <img
           className={styles.imageFooterBackground}
-          src="https://vibetech-html.vercel.app/assets/images/shape/footer-two-sp.png"
-          alt=""
+          src='https://vibetech-html.vercel.app/assets/images/shape/footer-two-sp.png'
+          alt=''
         />
       </div>
       <div className={styles.contentFooterCopyRight}>
@@ -118,13 +124,13 @@ export default function Footer() {
         <div>
           <ul className={styles.listContentFooterCopyRight}>
             <li>
-              <a href="">Trams & Condition</a>
+              <a href=''>Trams & Condition</a>
             </li>
             <li>
-              <a href="">Privacy Policy</a>
+              <a href=''>Privacy Policy</a>
             </li>
             <li>
-              <a href="">Contact Us</a>
+              <a href=''>Contact Us</a>
             </li>
           </ul>
         </div>

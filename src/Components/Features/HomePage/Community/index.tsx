@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./styles.module.css";
+import React from 'react';
+import styles from './styles.module.css';
 
 export default function Community() {
   return (
@@ -13,10 +13,16 @@ export default function Community() {
       </div>
       <div className={styles.contentButtonCommunity}>
         <div className={styles.buttonCommunityDiscord}>
-          <a href="">Discord</a>
+          <a href=''>Discord</a>
         </div>
         <div className={styles.buttonCommunity}>
-          <a href="">Comunidad en WhatsApp</a>
+          <a
+            href='https://chat.whatsapp.com/I2DZDKp94Ha5XcdJsGRXDi'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Comunidad en WhatsApp
+          </a>
         </div>
       </div>
     </div>
