@@ -1,0 +1,197 @@
+.contentTransformYourBusiness {
+  padding: 120px 8%;
+  display: flex;
+}
+.contentTransformYourBusiness img {
+  max-width: 100%;
+}
+.contentTransformYourBusiness h2 {
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+.contentTransformYourBusiness h3 {
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+.contentTransformYourBusiness h4 {
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+
+.imageTransformYourBusiness {
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.contentOneTransformYourBusiness {
+  width: 70%;
+  margin-right: 3%;
+}
+.contentTwoTransformYourBusiness {
+  width: 30%;
+}
+.benefitsTransformYourBusiness,
+.benefitsTransformYourBusinessRoute {
+  display: flex;
+}
+.benefitsTransformYourBusiness ul,
+.benefitsTransformYourBusinessRoute ul {
+  list-style: none;
+  padding: 0 40px;
+  overflow: hidden; /* Evita desbordamientos si es necesario */
+  white-space: normal;
+}
+.benefitsTransformYourBusiness ul li,
+.benefitsTransformYourBusinessRoute ul li {
+  margin-bottom: 22px;
+}
+.benefitsTransformYourBusiness strong {
+  color: #171717;
+}
+.benefitsTransformYourBusiness img,
+.benefitsTransformYourBusinessRoute img {
+  margin-right: 8px;
+}
+.imagenTwobenefitsTransformYourBusiness {
+  width: 40%;
+}
+.inkafarma,
+.McDonalds {
+  display: flex;
+  margin-bottom: 24px;
+}
+.imagenInkafarma {
+  width: 50%;
+}
+.text {
+  margin-left: 24px;
+}
+.imagenMacdonalds {
+  width: 40%;
+}
+
+.contentTargetColumnTwoSearch {
+  border-radius: 5px;
+  border: 2px solid #eff3f4;
+  padding: 20px;
+  padding-top: 54px;
+  margin-bottom: 24px;
+}
+.contentTargetColumnTwo,
+.contentTargetColumnThree {
+  border-radius: 5px;
+  border: 2px solid #eff3f4;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.contentTargetColumnTwo h3,
+.contentTargetColumnThree h3 {
+  font-weight: 600;
+  color: #171717;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -0.96px;
+  margin-bottom: 12px;
+}
+.contentTargetColumnTwo a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  background-color: #fcfaf3;
+  text-decoration: none;
+  color: #67687a;
+}
+.targetSmall {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+.imageTargetSmall {
+  width: 80px;
+  border-radius: 5px;
+  margin-right: 12px;
+  margin-top: 7px;
+}
+.textTragetSmall span {
+  margin-left: 12px;
+}
+.textTragetSmall a {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.96px;
+  font-weight: 600;
+  color: #171717;
+  text-decoration: none;
+}
+.textTragetSmall a:hover {
+  color: #48534F;
+}
+
+@media (max-width: 1025px) {
+  .contentTransformYourBusiness {
+    padding: 60px 4%;
+  }
+}
+
+@media (max-width: 982px) {
+  .contentTransformYourBusiness {
+    flex-direction: column;
+  }
+  .contentOneTransformYourBusiness {
+    width: 100%;
+    margin: 0;
+  }
+  .contentTransformYourBusiness h2 {
+    font-size: 35px;
+  }
+  .contentTransformYourBusiness h3 {
+    font-size: 22px;
+  }
+  .contentTwoTransformYourBusiness {
+    width: 100%;
+  }
+}
+@media (max-width: 663px) {
+  .benefitsTransformYourBusiness {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagenTwobenefitsTransformYourBusiness {
+    width: 80%;
+    margin-bottom: 22px;
+  }
+  .inkafarma {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagenInkafarma {
+    width: 80%;
+  }
+  .McDonalds {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .imagenMacdonalds {
+    width: 80%;
+    margin-top: 24px;
+  }
+  .benefitsTransformYourBusinessRoute {
+    font-size: 14px;
+  }
+  .benefitsTransformYourBusinessRoute ul {
+    padding: 0 20px;
+  }
+}

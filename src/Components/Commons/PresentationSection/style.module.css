@@ -1,0 +1,40 @@
+.contentSectionPresentation {
+  width: 100%;
+  text-align: center;
+  background-color: #242424;
+  padding: 182px 0 100px;
+  position: relative;
+}
+.titleContentSectionPresentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imagePresentation {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.contentSectionPresentation h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+}
+.textSectionPresentation {
+  display: flex;
+  color: white;
+}
+.textSectionPresentation a {
+    text-decoration: none;
+    color: white;
+}
+.textSectionPresentation a:hover {
+    color: #48534F;
+}
+
+@media (max-width: 982px) {
+  .contentSectionPresentation h1 {
+font-size: 42px;
+  }
+}

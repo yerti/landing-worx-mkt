@@ -1,0 +1,25 @@
+.ContentTotalServicesSection {
+  padding-bottom: 96px;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+.contentTitlesServices {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (max-width: 1025px) {
+  .ContentTotalServicesSection  {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+}
+
+@media (max-width: 982px) {
+  .ContentTotalServicesSection {
+    padding-bottom: 60px;
+  }
+}

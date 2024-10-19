@@ -1,0 +1,83 @@
+.contentNavigationBar {
+  width: 100%;
+  height: 99px;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 23px 8%;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+  z-index: 99;
+}
+.imgLogoNavigationBar {
+  width: 25%;
+  height: auto;
+  padding-right: 1.5rem;
+}
+.contentListAndButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listMenu {
+  display: flex;
+  list-style: none;
+}
+.listMenu li {
+  padding: 0 50px 0 0;
+}
+.listMenu li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.contentResponsiveList {
+  display: none;
+}
+
+.contentResposiveList {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100px;
+  padding: 0 24px;
+}
+.listMenuresponsive {
+  height: 430px;
+  list-style: none;
+  background-color: white;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+}
+
+.listMenuresponsive a {
+  padding: 1em 5%;
+  display: block;
+  text-decoration: none;
+  color: #67687a;
+  border-top: 1px solid #e6e2e2;
+}
+.listMenu a:hover {
+  color: #48534F;
+}
+
+@media (max-width: 1025px) {
+  .contentNavigationBar {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+  .listMenu li {
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: 982px) {
+  .contentListAndButton {
+    display: none;
+  }
+  .contentResponsiveList {
+    display: block;
+  }
+}

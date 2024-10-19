@@ -1,0 +1,10 @@
+.titleTotal {
+  color: #48534F;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 400;
+}

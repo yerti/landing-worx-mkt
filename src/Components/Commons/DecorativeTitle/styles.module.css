@@ -1,0 +1,16 @@
+.titleDecorative {
+  font-size: 100px;
+  letter-spacing: 1px;
+  color: #171717;
+}
+.titleDecorative span {
+  -webkit-text-stroke: 1px #171717;
+  color: transparent;
+}
+
+@media (max-width: 982px) {
+  .titleDecorative {
+    font-size: 50px;
+  }
+}
+

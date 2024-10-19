@@ -1,0 +1,11 @@
+.contentImagesList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contentImagesList img {
+  width: 153px;
+  height: 70px;
+  margin-right: 25px;
+}

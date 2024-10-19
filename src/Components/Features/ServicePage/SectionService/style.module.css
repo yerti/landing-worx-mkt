@@ -1,0 +1,85 @@
+.contentTotalSectionService {
+  padding-top: 120px;
+  padding-bottom: 70px;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+.listTargetSectionService {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 70%;
+}
+.contentTarget {
+  width: 100%;
+  padding: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.textTargetAboutUs {
+  margin-top: 20px;
+}
+.textTargetAboutUs h1 {
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -0.96px;
+  color: #171717;
+}
+.contentIconAboutUs {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #48534F;
+  border-radius: 5px;
+}
+.contentCardsAboutUs img {
+  width: 40px;
+  height: 41px;
+}
+.anclaSectionService {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #171717;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.anclaSectionService:hover {
+  color: #48534F;
+}
+.anclaSectionService svg{
+  margin-left: 12px;
+}
+
+.columOneSectionService {
+  width: 50%;
+}
+@media (max-width: 1025px) {
+  .contentTotalSectionService {
+    padding: 60px 4%;
+  }
+}
+@media (max-width: 982px) {
+  .contentTotalSectionService {
+    flex-direction: column;
+  }
+  .listTargetSectionService {
+    width: 100%;
+  }
+  .columOneSectionService {
+    width: 100%;
+  }
+}
+@media (max-width: 567px) {
+.listTargetSectionService {
+  grid-template-columns: 1fr;
+}
+}

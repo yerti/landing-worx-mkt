@@ -1,0 +1,60 @@
+.contentTotalSectionPrice {
+  padding-bottom: 96px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.contenTitlePriceSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.buttonPrice {
+  display: flex;
+}
+
+.buttonPriceMonts,
+.buttonPriceYear {
+  width: 162px;
+  height: 64px;
+  background-color: #242411;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttonPriceMonts {
+  border-radius: 50px 0 0 50px;
+}
+
+.buttonPriceYear {
+  border-radius: 0 50px 50px 0;
+}
+
+.active {
+  background-color: #48534F;
+}
+
+.buttonPrice p {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+@media (max-width: 1025px) {
+  .contentTotalSectionPrice {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+@media (max-width: 769px) {
+  .contenTitlePriceSection {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contentTotalSectionPrice {
+    padding-bottom: 60px;
+  }
+}
+

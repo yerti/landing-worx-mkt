@@ -1,0 +1,16 @@
+.contentProfesionalPeopleSection {
+  padding-bottom: 96px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.titleProfesionalPeopleSection {
+    text-align: center;
+}
+
+
+@media (max-width: 1025px) {
+  .contentProfesionalPeopleSection {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}

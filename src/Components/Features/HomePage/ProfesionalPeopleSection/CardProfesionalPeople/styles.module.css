@@ -1,0 +1,83 @@
+.targetProfesional {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #fcfaf3;
+  margin: 0 1rem;
+  padding: 30px 22px;
+}
+.targetProfesional a {
+  text-decoration: none;
+}
+.imgPeopleProfesional {
+  width: 100%;
+  border-radius: 20px;
+}
+.contentListIcon ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: -60px;
+}
+.contentListIcon ul li {
+  margin-right: 12px;
+  width: 30px;
+  height: 30px;
+  background-color: #48534F;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 9px;
+  margin-left: 0.5px;
+}
+
+.contentNamePostTarget {
+  margin-top: 50px;
+  text-align: center;
+}
+.contentNamePostTarget h3 {
+  margin: 15px 0 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #67687a;
+  line-height: 2.06;
+}
+.contentNamePostTarget h1 {
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: -0.96px;
+  color: #000;
+}
+.contentTotalCardsPeople {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 44px;
+  justify-content: center;
+  justify-items: center;
+}
+
+@media (max-width: 1025px) {
+  .contentTotalCardsPeople {
+    justify-content: center;
+  }
+  .contentTotalCardsPeople {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 982px) {
+  .contentTotalCardsPeople {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .contentTotalCardsPeople {
+    grid-template-columns: 1fr !important;
+  }
+}
