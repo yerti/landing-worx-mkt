@@ -30,7 +30,7 @@ export const ProfesionalCardsList: ProfesionalCards[] = [
   {
     idProfesional: 3,
     name: 'Manuel Carbajal Cáceres',
-    img: '/images/team-two-3.png',
+    img: '/images/manuel.jpeg',
     post: 'Cofundador',
     description:
       'One of the most notable trends is the rise of AI and machine learning. These technologies empower computers to learn from data, enabling them to perform tasks that once required human intelligence.',
@@ -42,7 +42,7 @@ export const ProfesionalCardsList: ProfesionalCards[] = [
   {
     idProfesional: 4,
     name: 'Duwal Varillas Castro',
-    img: '/images/team-two-4.png',
+    img: '/images/duwal.jpg',
     post: 'Cofundador',
     description:
       'One of the most notable trends is the rise of AI and machine learning. These technologies empower computers to learn from data, enabling them to perform tasks that once required human intelligence.',
