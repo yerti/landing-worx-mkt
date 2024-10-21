@@ -3,7 +3,7 @@ import { ProfesionalCards } from '@/types/entities/ProfesionalCards.entien';
 export const ProfesionalCardsList: ProfesionalCards[] = [
   {
     idProfesional: 1,
-    name: 'Michelle Margot Portillo Quiñones',
+    name: 'Michelle Margot Portillo Quiñones', 
     img: '/images/profesiona1.png',
     post: 'Cofundadora y Especialista en Marketing Digital',
     description:
@@ -31,7 +31,7 @@ export const ProfesionalCardsList: ProfesionalCards[] = [
     idProfesional: 3,
     name: 'Manuel Carbajal Cáceres',
     img: '/images/manuel.jpeg',
-    post: 'Cofundador',
+    post: 'Cofundador', 
     description:
       'One of the most notable trends is the rise of AI and machine learning. These technologies empower computers to learn from data, enabling them to perform tasks that once required human intelligence.',
     facebook: '',
