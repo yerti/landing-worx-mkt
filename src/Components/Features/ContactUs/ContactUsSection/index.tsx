@@ -53,7 +53,7 @@ export default function contentTotalContactUsSection() {
       </div>
       <div className={styles.columnTwocontentTotalContactUsSection}>
         <form
-          action='https://formsubmit.co/contacto.worxmkt@gmail.com'
+          action='https://formsubmit.co/contacto.worxmkt@gmail.com' 
           method='POST'
           className={styles.contentInformationContact}
         >
