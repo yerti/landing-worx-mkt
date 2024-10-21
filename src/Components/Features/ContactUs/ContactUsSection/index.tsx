@@ -11,18 +11,18 @@ export default function contentTotalContactUsSection() {
     <section className={styles.contentTotalContactUsSection}>
       <div className={styles.columnOnecontentTotalContactUsSection}>
         <div>
-          <Title nameTitle='Contact us' />
-          <SubTitle nameSubTitle='Get in touch with us' />
+          <Title nameTitle='Contáctanos' />
+          <SubTitle nameSubTitle='Ponte en contacto con nosotros' />
         </div>
         <div className={styles.contentColumnOneDetailService}>
-          <div className={styles.contentTextImgDetailService}>
+          {/* <div className={styles.contentTextImgDetailService}>
             <LocationIcon w='24' h='24' color='#48534F' />
             <div className={styles.textDetailService}>
               <h3>Location</h3>
               <p>Dhaka 102, utl 1216, road 45 house of street</p>
             </div>
-          </div>
-          <div className={styles.contentTextImgDetailService}>
+          </div> */}
+          {/* <div className={styles.contentTextImgDetailService}>
             <CallIcon w='24' h='24' color='#48534F' />
             <div className={styles.textDetailService}>
               <h3>Call us</h3>
@@ -35,11 +35,11 @@ export default function contentTotalContactUsSection() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className={styles.contentTextImgDetailService}>
             <MailIcon w='24' h='24' color='#48534F' />
             <div className={styles.textDetailService}>
-              <h3>Email</h3>
+              <h3>Correo</h3>
               <div>
                 <p>
                   <a href='mailto:contacto.workmkt@gmail.com'>
@@ -61,13 +61,13 @@ export default function contentTotalContactUsSection() {
             <div className={styles.formContent}>
               <label htmlFor='Nombre'>
                 Nombre
-                <input type='text' name='name' placeholder='Your Name' />
+                <input type='text' name='name' placeholder='Tú nombre' />
               </label>
             </div>
             <div className={styles.formContent}>
               <label htmlFor='email'>
                 Correo Electronico
-                <input type='email' name='email' placeholder='Yourmail@.com' />
+                <input type='email' name='email' placeholder='tuemail@.com' />
               </label>
             </div>
           </div>
@@ -79,14 +79,14 @@ export default function contentTotalContactUsSection() {
                 name='comments'
                 cols={30}
                 rows={4}
-                placeholder='Description'
+                placeholder='Descripción'
               ></textarea>
             </label>
           </div>
 
           <div className={styles.formContent}>
             <button className={styles.botonEnviar} type='submit'>
-              Leave A Comment
+              Enviar
             </button>
           </div>
         </form>

@@ -5,7 +5,7 @@ import React from "react";
 export default function ContactanosPage() {
   return (
     <>
-      <PresentationSection title="Contact us" rout="/home" nameRout="Home" />
+      <PresentationSection title="Contáctanos" rout="/home" nameRout="Inicio" />
       <ContactUsSection />
     </>
   );

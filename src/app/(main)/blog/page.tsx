@@ -5,7 +5,7 @@ import React from "react";
 export default function BlogPage() {
   return (
     <>
-      <PresentationSection title="Blog Classic" nameRout="Home" rout="/home" />
+      <PresentationSection title="Blog Classic" nameRout="Inicio" rout="/home" />
       <BlogSection />
     </>
   );

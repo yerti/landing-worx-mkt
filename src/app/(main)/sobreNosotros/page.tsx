@@ -9,7 +9,7 @@ import React from "react";
 export default function SobreNosotrosPage() {
   return (
     <>
-      <PresentationSection title="Sobre nosotros" rout="/home" nameRout="Home" />
+      <PresentationSection title="Sobre nosotros" rout="/home" nameRout="Inicio" />
       <AboutSection />
       <OrangeSeciton>
         <OrangeSectionOne />

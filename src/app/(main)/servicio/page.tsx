@@ -6,7 +6,7 @@ import React from "react";
 export default function Serviciospage() {
   return (
     <>
-      <PresentationSection title="Servicio" nameRout="Home" rout="/home" />
+      <PresentationSection title="Servicio" nameRout="Inicio" rout="/home" />
       <SectionService />
       {/* <PricesSection /> */}
     </>
