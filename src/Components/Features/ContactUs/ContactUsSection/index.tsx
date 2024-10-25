@@ -42,8 +42,8 @@ export default function contentTotalContactUsSection() {
               <h3>Correo</h3>
               <div>
                 <p>
-                  <a href='mailto:contacto.workmkt@gmail.com'>
-                    contacto.workmkt@gmail.com
+                  <a href='mailto:contacto.worxmkt@gmail.com'>
+                    contacto.worxmkt@gmail.com
                   </a>
                 </p>
               </div>
@@ -53,7 +53,7 @@ export default function contentTotalContactUsSection() {
       </div>
       <div className={styles.columnTwocontentTotalContactUsSection}>
         <form
-          action='https://formsubmit.co/contacto.workmkt@gmail.com'
+          action='https://formsubmit.co/contacto.worxmkt@gmail.com'
           method='POST'
           className={styles.contentInformationContact}
         >
